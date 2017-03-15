@@ -1,4 +1,7 @@
-class BuluoEntry():
+from PyQt5 import QtWidgets
+
+
+class BuluoEntry(object):
     def __init__(self):
         pass
 

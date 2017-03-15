@@ -5,7 +5,6 @@ from datetime import datetime
 
 import requests
 import time
-
 from selenium.webdriver import DesiredCapabilities
 from selenium import webdriver
 
