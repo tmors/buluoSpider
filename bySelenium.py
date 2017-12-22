@@ -38,9 +38,9 @@ time.sleep(1)
 driver.find_element_by_id("switcher_plogin").click()
 
 driver.find_element_by_id("u").clear()
-driver.find_element_by_id("u").send_keys("398080994")
+driver.find_element_by_id("u").send_keys("qq账号：398080994（👀）")
 driver.find_element_by_id("p").clear()
-driver.find_element_by_id("p").send_keys("pyx19931012qq")
+driver.find_element_by_id("p").send_keys("qq密码")
 
 driver.find_element_by_class_name("btn").click()
 time.sleep(1)
