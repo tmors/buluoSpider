@@ -131,7 +131,7 @@ class SearchSecondLayer(threading.Thread):
 class connectRuokuai():
     def __init__(self, uin, pwd):
         self.id = "77368"
-        self.key = "0d830378d07e47fa9507636fc1dab95f"
+        self.key = "脱敏"
         self.un = uin
         self.pwd = pwd
         # 2040为4位纯字母
@@ -244,7 +244,7 @@ class Login():
             driver.switch_to.frame(0)
             driver.find_element_by_id("capImg")
             verifycodeUrl = driver.find_elements_by_xpath("//img[@src]")[0].get_attribute("src")
-            ruokuai = connectRuokuai("xiaochaohcoa", "123456789qwer")
+            ruokuai = connectRuokuai("脱敏", "脱敏")
             verifycode = ruokuai.postData(verifycodeUrl)
             driver.find_element_by_id("capAns").clear()
             driver.find_element_by_id("capAns").send_keys(verifycode)
