@@ -273,5 +273,5 @@ class Main():
         print(cookie)
 
 
-m = Main("454366066", "527155527155qdd")
+m = Main("脱敏", "脱敏")
 m.main()
